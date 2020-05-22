@@ -42,7 +42,7 @@ $(document).ready(function () {
           $("#output-area").html(ajaxOutput)
 
           // reset the form if it was successful
-          if($(".alert-success").length)
+          if($(".alert-success").length >= 1)
             $("#contact")[0].reset();
         }
       })
