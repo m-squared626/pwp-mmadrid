@@ -36,8 +36,8 @@ header {
 }
 
 :target{
-    padding-top:50rem; /* = to height of navbar */
-    margin-top:-50rem;
+    padding-top:5rem; /* = to height of navbar */
+    margin-top:-5rem;
 }
 
 
@@ -45,6 +45,10 @@ header {
 /* Picture with Text Section */
 
 /* Working Experience Section */
+
+.container {
+    padding: 30px;
+}
 
 /* Portfolio Section */
 
