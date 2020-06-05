@@ -83,6 +83,3 @@ tr:nth-child(even) {
 /* Visitor Contact Section */
 
 /* reCAPTCHA */
-function onSubmit(token) {
-    document.getElementById("demo-form").submit();
-}
