@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("contact").validate({
+  $("#contact").validate({
     debug: true,
     errorClass: "alert alert-danger",
     errorLabelContainer: "#output-area",
@@ -16,7 +16,7 @@ $(document).ready(function () {
       },
       message: {
         required: true,
-        maxLength: 2000
+        maxlength: 2000
       }
     },
     // error message to the end user when rules above don't pass
@@ -30,7 +30,7 @@ $(document).ready(function () {
       },
       message: {
         required: "Please enter a message.",
-        maxLength: "Message is too long"
+        maxlength: "Message is too long"
       }
     },
     submitHandler: function (form) {
